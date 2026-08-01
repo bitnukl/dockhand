@@ -2267,7 +2267,7 @@
 										title={m.containers_list_open_in_new_tab({ url: parsedUrl.url })}
 									>
 										<Globe class="w-2.5 h-2.5" />
-										<span class="max-w-[120px] truncate">{parsedUrl.name || parsedUrl.url.replace(/^https?:\/\//, '')}</span>
+										<span class="max-w-[160px] truncate">{parsedUrl.name || parsedUrl.url.replace(/^https?:\/\//, '')}</span>
 										<ExternalLink class="w-2.5 h-2.5 opacity-60" />
 									</a>
 								{/if}
@@ -2282,7 +2282,7 @@
 										title={m.containers_list_traefik_title({ router: t.router, url: t.url })}
 									>
 										<Globe class="w-2.5 h-2.5" />
-										<span class="max-w-[120px] truncate">{t.url.replace(/^https?:\/\//, '')}</span>
+										<span class="max-w-[160px] truncate">{t.url.replace(/^https?:\/\//, '')}</span>
 										<ExternalLink class="w-2.5 h-2.5 opacity-60" />
 									</a>
 								{/each}
@@ -2297,7 +2297,7 @@
 										title={m.containers_list_pangolin_title({ resource: p.resource, url: p.url })}
 									>
 										<Globe class="w-2.5 h-2.5" />
-										<span class="max-w-[120px] truncate">{p.displayName ?? p.url.replace(/^https?:\/\//, '')}</span>
+										<span class="max-w-[160px] truncate">{p.displayName ?? p.url.replace(/^https?:\/\//, '')}</span>
 										<ExternalLink class="w-2.5 h-2.5 opacity-60" />
 									</a>
 								{/each}
