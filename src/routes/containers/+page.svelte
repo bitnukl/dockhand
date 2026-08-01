@@ -1901,7 +1901,7 @@
 										title="Open {parsedUrl.url} in new tab"
 									>
 										<Globe class="w-2.5 h-2.5" />
-										<span class="max-w-[120px] truncate">{parsedUrl.name || parsedUrl.url.replace(/^https?:\/\//, '')}</span>
+										<span class="max-w-[160px] truncate">{parsedUrl.name || parsedUrl.url.replace(/^https?:\/\//, '')}</span>
 										<ExternalLink class="w-2.5 h-2.5 opacity-60" />
 									</a>
 								{/if}
@@ -1916,7 +1916,7 @@
 										title="Traefik router {t.router} → {t.url}"
 									>
 										<Globe class="w-2.5 h-2.5" />
-										<span class="max-w-[120px] truncate">{t.url.replace(/^https?:\/\//, '')}</span>
+										<span class="max-w-[160px] truncate">{t.url.replace(/^https?:\/\//, '')}</span>
 										<ExternalLink class="w-2.5 h-2.5 opacity-60" />
 									</a>
 								{/each}
@@ -1931,7 +1931,7 @@
 										title="Pangolin resource {p.resource} → {p.url}"
 									>
 										<Globe class="w-2.5 h-2.5" />
-										<span class="max-w-[120px] truncate">{p.displayName ?? p.url.replace(/^https?:\/\//, '')}</span>
+										<span class="max-w-[160px] truncate">{p.displayName ?? p.url.replace(/^https?:\/\//, '')}</span>
 										<ExternalLink class="w-2.5 h-2.5 opacity-60" />
 									</a>
 								{/each}
