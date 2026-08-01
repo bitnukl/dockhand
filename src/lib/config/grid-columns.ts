@@ -60,7 +60,7 @@ export const stackColumns: ColumnConfig[] = [
 	{ id: 'name', label: 'Name', sortable: true, sortField: 'name', width: 180, minWidth: 100, grow: true },
 	{ id: 'status', label: 'Status', sortable: true, sortField: 'status', width: 120, minWidth: 90 },
 	{ id: 'source', label: 'Source', width: 100, minWidth: 100, noTruncate: true },
-	{ id: 'location', label: 'Location', width: 180, minWidth: 100 },
+	{ id: 'location', label: 'Location', width: 180, minWidth: 120 },
 	{ id: 'containers', label: 'Containers', sortable: true, sortField: 'containers', width: 100, minWidth: 70 },
 	{ id: 'cpu', label: 'CPU', sortable: true, sortField: 'cpu', width: 60, minWidth: 50, align: 'right' },
 	{ id: 'memory', label: 'Memory', sortable: true, sortField: 'memory', width: 70, minWidth: 50, align: 'right' },
